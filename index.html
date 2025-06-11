@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipSave Support</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 0 0 1rem 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .support-section {
+            margin-bottom: 2rem;
+        }
+
+        .support-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background-color: #f1f5f9;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            transition: transform 0.2s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s;
+            font-weight: 500;
+        }
+
+        .social-link:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 2rem 0;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>ClipSave Support</h1>
+        <p>We're here to help you get the most out of ClipSave</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="support-section">
+                <h2>Welcome to ClipSave Support</h2>
+                <p>Thank you for choosing ClipSave! We're committed to providing you with the best possible experience.
+                    If you need assistance, have suggestions, or want to report a bug, we're here to help.
+                    This is designed specifically to work with Facebook but we're working on adding more platforms soon.
+                    Completely Ad-Free.
+                </p>
+            </div>
+
+            <div class="support-section">
+                <h2>Contact Us</h2>
+                <div class="contact-card">
+                    <div>
+                        <h3>Social Media</h3>
+                        <p>Get quick responses and stay updated:</p>
+                        <a href="https://x.com/Faker_ix" target="_blank" class="social-link">
+                            @Faker_ix on X
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
